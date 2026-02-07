@@ -85,6 +85,7 @@ win11-widget/
 │   ├── Win11Widget.Core.Tests/    # Business logic tests (31 tests)
 │   └── Win11Widget.Tests/          # UI integration tests
 └── docs/                           # Documentation
+```
 
 ### Design Pattern
 - **MVVM (Model-View-ViewModel)** - Separation of concerns
