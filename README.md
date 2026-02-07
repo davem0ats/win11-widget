@@ -165,7 +165,6 @@ Additional documentation is available:
 - [**instructions.md**](docs/instructions.md) - Detailed project requirements and specifications
 - [**development.md**](docs/development.md) - Development guidelines and workflow
 - [**testing.md**](docs/testing.md) - Testing strategy and test coverage details
-- [**project-creation-summary.md**](docs/project-creation-summary.md) - Project setup and creation history
 - [**copilot-instructions.md**](.github/copilot-instructions.md) - GitHub Copilot configuration (in `.github/`)
 
 ##  Distribution
