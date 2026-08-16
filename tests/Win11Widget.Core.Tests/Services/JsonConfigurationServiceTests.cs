@@ -90,7 +90,7 @@ public class JsonConfigurationServiceTests : IDisposable
     {
         // Arrange
         var configPath = Path.Combine(_tempDir, "config.json");
-        await File.WriteAllTextAsync(configPath, "{ invalid json");
+        await File.WriteAllTextAsync(configPath, "{ invalid json", TestContext.Current.CancellationToken);
 
         // Act
         var config = await _service.LoadConfigurationAsync();

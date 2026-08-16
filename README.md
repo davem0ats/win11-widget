@@ -3,7 +3,7 @@
 A modern Windows 11-style countdown timer widget with a beautiful, polished user interface. Track multiple important dates with customizable display settings and position options.
 
 ![Windows 11 Style](https://img.shields.io/badge/Style-Windows%2011-0078D4?style=flat-square)
-![.NET 8](https://img.shields.io/badge/.NET-8.0-512BD4?style=flat-square)
+![.NET 10](https://img.shields.io/badge/.NET-10.0-512BD4?style=flat-square)
 ![WPF](https://img.shields.io/badge/UI-WPF-512BD4?style=flat-square)
 ![Tests Passing](https://img.shields.io/badge/Tests-31%20Passing-success?style=flat-square)
 
@@ -35,7 +35,7 @@ A modern Windows 11-style countdown timer widget with a beautiful, polished user
 
 ### Prerequisites
 - Windows 10/11 (64-bit)
-- .NET 8 SDK or Runtime
+- .NET 10 SDK or Runtime
 
 ### Building from Source
 
@@ -64,7 +64,7 @@ dotnet test --verbosity normal
 ## 🏗️ Architecture
 
 ### Technology Stack
-- **.NET 8** - Modern cross-platform framework
+- **.NET 10** - Modern cross-platform framework
 - **WPF** - Windows Presentation Foundation for rich UI
 - **C# 12** - Latest language features
 - **xUnit** - Testing framework
@@ -166,6 +166,7 @@ Additional documentation is available:
 - [**development.md**](docs/development.md) - Development guidelines and workflow
 - [**testing.md**](docs/testing.md) - Testing strategy and test coverage details
 - [**copilot-instructions.md**](.github/copilot-instructions.md) - GitHub Copilot configuration (in `.github/`)
+- [**licenses.md**](docs/licenses.md) - All NuGet package licenses including transitive dependencies
 
 ##  Distribution
 
