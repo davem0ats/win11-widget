@@ -3,7 +3,7 @@
 A Windows 11-style widget that displays countdown timers to a configurable list of dates with a modern, polished user interface.
 
 ### Technology Stack
-- **.NET 8** - Windows desktop framework
+- **.NET 10** - Windows desktop framework
 - **WPF** - Windows Presentation Foundation for UI
 - **C#** - Primary programming language
 - **xUnit** - Test-driven development with 31 passing unit tests
@@ -86,6 +86,14 @@ A Windows 11-style widget that displays countdown timers to a configurable list 
   - Display settings (colors, font, opacity, always-on-top)
   - Window position (X, Y coordinates)
   - Sound preferences
+
+### Dependency Management
+- All NuGet package licenses (direct and transitive) are documented in `docs/licenses.md`
+- Regenerate after any package add, update, or removal:
+  ```
+  dotnet-project-licenses --input Win11Widget.sln --include-transitive --output-directory docs --json --use-project-assets-json
+  ```
+- `dotnet-project-licenses` must be installed globally: `dotnet tool install --global dotnet-project-licenses`
 
 ### Notes
 - Widget is private (not published to Windows Store)

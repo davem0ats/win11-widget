@@ -89,6 +89,7 @@
 - Keep PRs small and focused
 - Document architectural decisions and rationale in comments or design docs
 - Include test coverage in all pull requests
+- Regenerate `docs/licenses.md` and `docs/licenses.json` after any NuGet package add, update, or removal: `dotnet-project-licenses --input Win11Widget.sln --include-transitive --output-directory docs --json --use-project-assets-json`
 
 ## Project Structure
 - `src/Win11Widget/` - Main WinUI application
